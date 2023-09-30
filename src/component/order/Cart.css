@@ -1,0 +1,23 @@
+.cartpage{
+  right: 0;
+  background-color: rgb(222, 241, 246);
+  top: 0;
+  width: 400px;
+  position: absolute;
+  min-height: 100vh;
+  height: auto;
+}
+.cross{
+  margin:10px;
+  font-size: large;
+}
+@media screen and (max-width:500px) {
+  .cartpage{
+    right: 0;
+    top: 0;
+    width: 40%;
+    position: absolute;
+    min-height: 100vh;
+    height: auto;
+  }
+}

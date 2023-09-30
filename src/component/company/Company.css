@@ -1,0 +1,98 @@
+.company{
+    overflow-x: hidden;
+}
+.b{
+    display: flex; 
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    height: 50vh;
+}
+.b img{
+    height: 80%;
+    width: 50%;
+    margin: 30px;
+}
+.b1{
+    margin: 30px;
+    width: 50%;
+    margin-right: 100px;
+}
+.b1 h1{
+    color: #35b8be;
+}
+.b1 p{
+    font-size: 15px;
+}
+button{
+    padding: 15px;
+    background-color: #35b8be;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px ;
+    color: white;
+}
+.c1{
+    width: 50%;
+}
+.transparent{
+    background: url(bg.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.transparent{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.t-body{
+    color: white;
+}
+.t-body h1{
+    font-size: 60px;
+    margin-left: 30%;
+}
+.t-body p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.t-body img{
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+@media (max-width:750px){
+    .heading{
+        padding-top: 30px;
+    }
+    .b{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .b1{
+        margin: auto;
+    }
+    .c1{
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 40%;
+        width: 500px;
+    }
+    .transparent{
+        margin:auto;
+    }
+}

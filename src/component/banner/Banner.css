@@ -1,0 +1,24 @@
+.banner{
+    padding: 10px;
+    background-color: #35b8be;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    font-size: 19px;
+}
+.text{
+    color: rgb(230, 227, 227);
+}
+.text bold{
+    color: white;
+}
+.blinks{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width:750px) {
+    .banner{
+        font-size: 18px;
+        text-align: left;
+    }
+}

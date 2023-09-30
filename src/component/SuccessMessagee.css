@@ -1,0 +1,24 @@
+.success-message {
+    background-color: #35b8be;
+    color: white;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin: -30% 0% 0% 40%;
+}
+@media (max-width:500px) {
+  .success-message {
+    background-color: #35b8be;
+    color: white;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    margin: -60% 0% 0% 21%;
+}
+}

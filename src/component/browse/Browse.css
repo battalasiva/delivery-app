@@ -1,0 +1,92 @@
+.browse h1{
+    text-align: center;
+    color:#35b8be;
+    margin-top: 200px;
+}
+.browse p{
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.buttons button{
+    margin: 20px;
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: white;
+    color: #35b8be;
+    border: 0.1px solid rgb(197, 186, 186);
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin: 20px;
+    list-style-type: none;
+   
+}
+.eachcard{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(230, 227, 227);
+    border-radius: 10px;
+}
+.eachcard:hover{
+    border: 1px solid #35b8be ;
+}
+.eachcard img{
+    width:100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.data1{
+    margin:10px;
+   
+}
+.data1 input{
+    width:30px;
+    height: 20px;
+    margin-top: 10px;
+
+}
+.data1 button{
+    margin-left: 10px;
+    background-color: #35b8be;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    height: 30px;
+    border-radius: 5px;
+}
+.bottom{
+    text-align:center;
+    align-items: center;
+    background-color: #35b8be;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+@media (max-width:500px) {
+    .browse h1{
+        margin: 20px;
+    }
+    .card{
+        margin: 0;
+    }
+    .browse{
+        text-align: center;
+    }
+    .bottom{
+        margin: 0;
+    }
+}
