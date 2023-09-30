@@ -12,7 +12,7 @@ const Body = () => {
       <div className="body1">
         <div className="block1">
           <h1>
-            Beautiful food <br />& takeaway,
+            Delicious food <br />& takeaway,
             <br />
             <span>delivered </span>to <br />
             your door{" "}
